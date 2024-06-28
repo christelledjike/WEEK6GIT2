@@ -8,7 +8,7 @@ resource "aws_lightsail_instance" "custom" {
   # key_pair_name     = "some_key_name"
   tags = {
     Team      = "DevOps"
-    env       = "dev"
+    env       = "Ops"
     create_by = "terraform"
   }
 }
